@@ -152,3 +152,79 @@
 
 1496995666 d:\proyecto\include\enemy.h
 
+1497018753 source:c:\users\inigo\desktop\llk\proyecto\main.cpp
+	<OneGame.h>
+	<stdio.h>
+
+1497018753 c:\users\inigo\desktop\llk\proyecto\include\onegame.h
+	<MyWindow.h>
+	<Character.h>
+	<Obstacle.h>
+	<time.h>
+	<sstream>
+
+1497018753 c:\users\inigo\desktop\llk\proyecto\include\mywindow.h
+	<Screen.h>
+	<iostream>
+	<Position.h>
+	<MySize.h>
+
+1497018753 c:\users\inigo\desktop\llk\proyecto\include\screen.h
+	<windows.h>
+	<conio.h>
+	<Position.h>
+
+1497018753 c:\users\inigo\desktop\llk\proyecto\include\position.h
+
+1497018753 c:\users\inigo\desktop\llk\proyecto\include\mysize.h
+
+1497018753 c:\users\inigo\desktop\llk\proyecto\include\character.h
+	<Screen.h>
+	<Position.h>
+	<iostream>
+
+1497018753 c:\users\inigo\desktop\llk\proyecto\include\obstacle.h
+	<Character.h>
+	<Position.h>
+	<Bug.h>
+
+1497018753 c:\users\inigo\desktop\llk\proyecto\include\bug.h
+	<Character.h>
+	<Direction.h>
+	<Screen.h>
+
+1497018753 c:\users\inigo\desktop\llk\proyecto\include\direction.h
+
+1497018753 source:c:\users\inigo\desktop\llk\proyecto\src\bug.cpp
+	"Bug.h"
+	<Screen.h>
+
+1497018753 source:c:\users\inigo\desktop\llk\proyecto\src\character.cpp
+	"Character.h"
+	<Screen.h>
+	<Position.h>
+
+1497018753 source:c:\users\inigo\desktop\llk\proyecto\src\direction.cpp
+	"Direction.h"
+
+1497018753 source:c:\users\inigo\desktop\llk\proyecto\src\mysize.cpp
+	"MySize.h"
+
+1497018753 source:c:\users\inigo\desktop\llk\proyecto\src\mywindow.cpp
+	"MyWindow.h"
+	<Screen.h>
+
+1497018753 source:c:\users\inigo\desktop\llk\proyecto\src\obstacle.cpp
+	"Obstacle.h"
+
+1497018753 source:c:\users\inigo\desktop\llk\proyecto\src\onegame.cpp
+	"OneGame.h"
+	<Character.h>
+
+1497018753 source:c:\users\inigo\desktop\llk\proyecto\src\position.cpp
+	"Position.h"
+
+1497018753 source:c:\users\inigo\desktop\llk\proyecto\src\screen.cpp
+	"Screen.h"
+	<iostream>
+

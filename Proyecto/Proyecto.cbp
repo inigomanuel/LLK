@@ -34,18 +34,14 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="include/Bug.h" />
 		<Unit filename="include/Character.h" />
 		<Unit filename="include/Direction.h" />
 		<Unit filename="include/MySize.h" />
 		<Unit filename="include/MyWindow.h" />
-		<Unit filename="include/Obstacle.h" />
 		<Unit filename="include/OneGame.h" />
 		<Unit filename="include/Position.h" />
 		<Unit filename="include/Screen.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/Bug.cpp" />
-		<Unit filename="src/Character.cpp" />
 		<Unit filename="src/Direction.cpp" />
 		<Unit filename="src/MySize.cpp" />
 		<Unit filename="src/MyWindow.cpp" />
