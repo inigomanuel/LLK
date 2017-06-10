@@ -1,0 +1,120 @@
+#include "lvl.h"
+#include <Personaje.h>
+
+lvl::lvl()
+{
+    windowGame = new MyWindow(MySize(40,15));
+    Position t=windowGame->GetPosition();
+    t.x+=5;
+    t.y+=4;
+    myPersonaje = new Personaje(t,'#');
+    t.x+=5;
+    myEnemy = new Personaje(t,'&');
+    t.y+=5;
+    myNpc = new Personaje (t,'*',"Yo antes era un aventurero como tu, pero un dia me hirieron con una flecha en la rodilla");
+    MySize st=windowGame->GetMySize();
+
+    t=windowGame->GetPosition();
+    t.x++;
+    t.y++;
+
+    srand (time(NULL));
+}
+
+void lvl::Refresh()
+{
+    myPersonaje->Draw();
+    myEnemy->Draw();
+    myNpc->Draw();
+    string xd="La leyenda de Kublay";
+    stringstream hb;
+    hb<<myPersonaje->GetHealth();
+    windowGame->ShowMessage(Position(windowGame->GetMySize().width-xd.size()*1.5,1),xd);
+    windowGame->ShowMessage(Position(0,3),string("Salud: ")+hb.str());
+}
+
+void lvl::ReachLimit(Personaje *b,Personaje *c,Position op)
+{
+    int g=0;
+    Position i=c->GetPos();
+    Position pb=b->GetPos();
+    Position pw=windowGame->GetPosition();
+    MySize sw=windowGame->GetMySize();
+    if(pb.x==i.x&pb.y==i.y)
+    {
+        b->ChangePos(op);
+    }
+    if(pb.x > pw.x && pb.x < pw.x +sw.width-1 && pb.y > pw.y && pb.y < pw.y +sw.height-1)
+        g=g+1;
+    else
+        b->ChangePos(op);
+
+}
+void lvl::GR(Personaje *Kub,Personaje *Enemy,Position retr)
+{
+    Position a,b;
+    a=Kub->GetPos();
+    b=Enemy->GetPos();
+    if(a.x==b.x&a.y==b.y)
+    {
+        Kub->hit();
+        Kub->ChangePos(retr);
+        windowGame->ShowMessage(Position(0,22),"Ouch!");
+    }
+}
+void lvl::Start()
+{
+    char c;
+    bool endGame=false;
+    windowGame->Draw();
+
+
+    do
+    {
+        Position pb=myPersonaje->GetPos();
+        if(kbhit())
+        {
+            c = getch();
+
+
+            switch (c)
+            {
+                case ESC:               // press ESC to exit
+                    myPersonaje->hit() ;
+                    break;
+                case SPACE:               // press SPACE to clear screen
+                    windowGame->ShowMessage(Position(0,21),myNpc->getDialogue());
+                    break;
+                case UP:
+                    myPersonaje->Move(0,-1);
+                    break;
+                case DOWN:
+                    myPersonaje->Move(0,1);
+                    break;
+                case LEFT:
+                    myPersonaje->Move(-1,0);
+                    break;
+                case RIGHT:
+                    myPersonaje->Move(1,0);
+                    break;;
+            }
+        }
+        ReachLimit(myPersonaje,myNpc,pb);
+        GR(myPersonaje,myEnemy,pb);
+        Refresh();
+        if(0==myPersonaje->GetHealth())
+        {
+            endGame=true;
+            windowGame->ShowMessage(Position(0,21),string("Perdiste crrano color ianta"));
+        }
+        Sleep(30);
+
+    }while(!endGame);
+
+    windowGame->ShowMessage(Position(0,22),"The End...");
+}
+
+lvl::~lvl()
+{
+    delete windowGame;
+}
