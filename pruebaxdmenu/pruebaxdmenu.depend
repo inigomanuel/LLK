@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1497626199 source:c:\users\inigo\desktop\pruebaxdmenu\main.cpp
+	<iostream>
+	<string.h>
+	<conio.h>
+
