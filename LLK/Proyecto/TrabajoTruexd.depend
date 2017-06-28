@@ -1,0 +1,175 @@
+# depslib dependency file v1.0
+1498525717 source:d:\llki\llk\trabajotruexx2\main.cpp
+	<iostream>
+	<lvl.h>
+	<stdio.h>
+
+1498522605 d:\llki\llk\trabajotruexx2\include\lvl.h
+	<MyWindow.h>
+	<Personaje.h>
+	<time.h>
+	<sstream>
+	<vector>
+	<Weapon.h>
+
+1498324154 d:\llki\llk\trabajotruexx2\include\mywindow.h
+	<Screen.h>
+	<iostream>
+	<Position.h>
+	<MySize.h>
+
+1498324154 d:\llki\llk\trabajotruexx2\include\screen.h
+	<windows.h>
+	<conio.h>
+	<Position.h>
+
+1498324154 d:\llki\llk\trabajotruexx2\include\position.h
+
+1498324154 d:\llki\llk\trabajotruexx2\include\mysize.h
+
+1498523770 d:\llki\llk\trabajotruexx2\include\personaje.h
+	<Screen.h>
+	<Position.h>
+	<iostream>
+	<Dialogo.h>
+	<Weapon.h>
+
+1498442751 d:\llki\llk\trabajotruexx2\include\dialogo.h
+	<MyWindow.h>
+
+1498449778 source:d:\llki\llk\trabajotruexx2\src\dialogo.cpp
+	<Dialogo.h>
+	<MyWindow.h>
+	<Position.h>
+
+1498445614 source:d:\llki\llk\trabajotruexx2\src\menu.cpp
+	"Menu.h"
+	<iostream>
+	<string.h>
+	<conio.h>
+	<cstdlib>
+
+1498445147 d:\llki\llk\trabajotruexx2\include\menu.h
+
+1498324154 source:d:\llki\llk\trabajotruexx2\src\mysize.cpp
+	"MySize.h"
+
+1498324154 source:d:\llki\llk\trabajotruexx2\src\mywindow.cpp
+	"MyWindow.h"
+	<Screen.h>
+
+1498523770 source:d:\llki\llk\trabajotruexx2\src\personaje.cpp
+	"Personaje.h"
+	<Screen.h>
+	<Position.h>
+
+1498324154 source:d:\llki\llk\trabajotruexx2\src\position.cpp
+	"Position.h"
+
+1498324154 source:d:\llki\llk\trabajotruexx2\src\screen.cpp
+	"Screen.h"
+	<iostream>
+
+1498523729 source:d:\llki\llk\trabajotruexx2\src\lvl.cpp
+	"lvl.h"
+	<Personaje.h>
+	<Menu.h>
+	<vector>
+	<iostream>
+
+1498525717 d:\llki\llk\trabajotruexx2\include\weapon.h
+	<Screen.h>
+	"iostream"
+	<Position.h>
+
+1498526077 source:d:\llki\llk\trabajotruexx2\src\weapon.cpp
+	"Weapon.h"
+
+1498568895 source:c:\llk\proyecto\main.cpp
+	<iostream>
+	<lvl.h>
+	<stdio.h>
+
+1498670724 c:\llk\proyecto\include\lvl.h
+	<MyWindow.h>
+	<Personaje.h>
+	<time.h>
+	<sstream>
+	<vector>
+	<Weapon.h>
+
+1498568895 c:\llk\proyecto\include\mywindow.h
+	<Screen.h>
+	<iostream>
+	<Position.h>
+	<MySize.h>
+
+1498568895 c:\llk\proyecto\include\screen.h
+	<windows.h>
+	<conio.h>
+	<Position.h>
+
+1498568895 c:\llk\proyecto\include\position.h
+
+1498568895 c:\llk\proyecto\include\mysize.h
+
+1498675870 c:\llk\proyecto\include\personaje.h
+	<Screen.h>
+	<Position.h>
+	<iostream>
+	<Dialogo.h>
+	<Weapon.h>
+	<vector>
+
+1498568895 c:\llk\proyecto\include\dialogo.h
+	<MyWindow.h>
+
+1498676507 c:\llk\proyecto\include\weapon.h
+	<Screen.h>
+	"iostream"
+	<Position.h>
+	<vector>
+
+1498568895 source:c:\llk\proyecto\src\dialogo.cpp
+	<Dialogo.h>
+	<MyWindow.h>
+	<Position.h>
+
+1498675883 source:c:\llk\proyecto\src\lvl.cpp
+	"lvl.h"
+	<Personaje.h>
+	<Menu.h>
+	<vector>
+	<iostream>
+
+1498568895 c:\llk\proyecto\include\menu.h
+
+1498568895 source:c:\llk\proyecto\src\menu.cpp
+	"Menu.h"
+	<iostream>
+	<string.h>
+	<conio.h>
+	<cstdlib>
+
+1498568895 source:c:\llk\proyecto\src\mysize.cpp
+	"MySize.h"
+
+1498568895 source:c:\llk\proyecto\src\mywindow.cpp
+	"MyWindow.h"
+	<Screen.h>
+
+1498676119 source:c:\llk\proyecto\src\personaje.cpp
+	"Personaje.h"
+	<Screen.h>
+	<Position.h>
+
+1498568895 source:c:\llk\proyecto\src\position.cpp
+	"Position.h"
+
+1498568895 source:c:\llk\proyecto\src\screen.cpp
+	"Screen.h"
+	<iostream>
+
+1498569618 source:c:\llk\proyecto\src\weapon.cpp
+	"Weapon.h"
+
