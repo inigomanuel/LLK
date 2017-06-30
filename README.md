@@ -10,7 +10,9 @@ La leyenda de Kublay, siendo bastante corta, cuenta el desarrollo de una aventur
 # Instrucciones
 
 Presiona Arriba,abajo,derecha o izquierda para moverte.
+
 Presiona la barra espaciadora para atacar.
+
 Presiona esc para abrir el inventario
 
 # Cómo jugar
