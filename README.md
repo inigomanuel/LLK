@@ -30,4 +30,5 @@ Versión Pre-Alpha 1.0
 # Autores
 
 Iñigo Manuel Diez Canseco
+
 Rafael Isaac Cano Guitton
